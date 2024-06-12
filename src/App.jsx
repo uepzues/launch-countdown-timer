@@ -14,7 +14,7 @@ function App() {
   useEffect(() => {
     const updateCountdown = () => {
       const dateCurrent = new Date().getTime();
-      const dateLaunch = new Date(2024, 5, 13).getTime();
+      const dateLaunch = new Date(2024, 8, 13).getTime();
       const timeDiff = dateLaunch - dateCurrent;
 
       let seconds = Math.floor((timeDiff / 1000) % 60);

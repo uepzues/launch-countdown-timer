@@ -29,6 +29,7 @@ function Footer() {
           </svg>
         </a>
       </div>
+      <div className="text-center mt-6 opacity-50 text-[.7rem]"> © {new Date().getFullYear()} <a href="https://frontendmentor.io">FrontEndMentor</a> uepzues. All rights reserved.</div>
     </div>
   );
 }
