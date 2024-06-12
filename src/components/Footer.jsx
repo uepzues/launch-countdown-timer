@@ -2,7 +2,7 @@ function Footer() {
   return (
     <div className="text-white bg-hills  bg-cover bg-no-repeat h-[150px] w-full absolute bottom-0 right-0">
       <div className="footContainer grid mx-auto grid-cols-3 w-[200px] justify-items-center mt-20">
-        <a href="https://github.com/uepzues" target="_blank" rel="noreferrer">
+        <a className="hover:scale-110" href="https://github.com/uepzues" target="_blank" rel="noreferrer">
           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24">
             <path
               className="hover:fill-[#fb6087]"
@@ -11,7 +11,7 @@ function Footer() {
             />
           </svg>
         </a>
-        <a className="hover:" href="#">
+        <a className="hover:scale-110" href="#">
           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24">
             <path
               className="hover:fill-[#fb6087]"
@@ -20,7 +20,7 @@ function Footer() {
             />
           </svg>
         </a>
-        <a className="hover:" href="#">
+        <a className="hover:scale-110" href="#">
           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24">
             <path className="hover:fill-[#fb6087]"
               fill="#8385A9"
